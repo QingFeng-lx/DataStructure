@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b2f83515-7d71-4f2b-9f45-d14004c5092b" name="Default Changelist" comment="init commit">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1f2EC1VEBfcdTT2wOyInjBBf36r" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/qingfeng" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.qingfeng.algorithm" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/qingfeng" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.HeroNode">
+    <configuration name="Graph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qingfeng.graph.Graph" />
+      <module name="DataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qingfeng.graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HeroNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qingfeng.tree.HeroNode" />
+      <module name="DataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qingfeng.tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.qingfeng.Main" />
+      <module name="DataStructure" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchReturn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qingfeng.algorithm.SearchReturn" />
+      <module name="DataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qingfeng.algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.SearchReturn" />
+      <item itemvalue="Application.Graph" />
+      <item itemvalue="Application.HeroNode" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HeroNode" />
+        <item itemvalue="Application.Graph" />
+        <item itemvalue="Application.SearchReturn" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b2f83515-7d71-4f2b-9f45-d14004c5092b" name="Default Changelist" comment="" />
+      <created>1595407655729</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595407655729</updated>
+      <workItem from="1595407658782" duration="705000" />
+    </task>
+    <task id="LOCAL-00001" summary="init commit">
+      <created>1595407902093</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1595407902093</updated>
+    </task>
+    <task id="LOCAL-00002" summary="init commit">
+      <created>1595407963029</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1595407963029</updated>
+    </task>
+    <task id="LOCAL-00003" summary="init commit">
+      <created>1595408299912</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1595408299912</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="556" y="292" width="325" height="217" key="Github.ShareDialog" timestamp="1595408360014">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="556" y="292" width="325" height="217" key="Github.ShareDialog/72.27.1294.741@72.27.1294.741" timestamp="1595408360014" />
+    <state x="442" y="27" width="543" height="741" key="Github.UntrackedFilesDialog" timestamp="1595407835890">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="442" y="27" width="543" height="741" key="Github.UntrackedFilesDialog/72.27.1294.741@72.27.1294.741" timestamp="1595407835890" />
+    <state width="1240" height="34" key="GridCell.Tab.0.bottom" timestamp="1595407793721">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state width="1240" height="34" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1595407793721" />
+    <state width="1240" height="34" key="GridCell.Tab.0.center" timestamp="1595407793720">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state width="1240" height="34" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1595407793720" />
+    <state width="1240" height="34" key="GridCell.Tab.0.left" timestamp="1595407793720">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state width="1240" height="34" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1595407793720" />
+    <state width="1240" height="34" key="GridCell.Tab.0.right" timestamp="1595407793721">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state width="1240" height="34" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1595407793721" />
+    <state x="200" y="31" width="1037" height="737" key="SettingsEditor" timestamp="1595408062993">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="200" y="31" width="1037" height="737" key="SettingsEditor/72.27.1294.741@72.27.1294.741" timestamp="1595408062993" />
+  </component>
+</project>
