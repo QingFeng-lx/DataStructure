@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b2f83515-7d71-4f2b-9f45-d14004c5092b" name="Default Changelist" comment="init commit">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="b2f83515-7d71-4f2b-9f45-d14004c5092b" name="Default Changelist" comment="二叉树删除结点">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/com/qingfeng/tree/BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructure/com/qingfeng/tree/BinaryTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/com/qingfeng/tree/HeroNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructure/com/qingfeng/tree/HeroNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/tree/HeroNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/tree/HeroNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +106,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1595407655729</updated>
-      <workItem from="1595407658782" duration="2829000" />
+      <workItem from="1595407658782" duration="3927000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1595407902093</created>
@@ -133,7 +129,21 @@
       <option name="project" value="LOCAL" />
       <updated>1595408299912</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="二叉树删除结点">
+      <created>1595423947865</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1595423947865</updated>
+    </task>
+    <task id="LOCAL-00005" summary="二叉树删除结点">
+      <created>1595424020078</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1595424020078</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,7 +151,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
+    <MESSAGE value="二叉树删除结点" />
+    <option name="LAST_COMMIT_MESSAGE" value="二叉树删除结点" />
   </component>
   <component name="WindowStateProjectService">
     <state x="556" y="292" width="325" height="217" key="Github.ShareDialog" timestamp="1595408482990">
@@ -152,25 +163,56 @@
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="442" y="27" width="543" height="741" key="Github.UntrackedFilesDialog/72.27.1294.741@72.27.1294.741" timestamp="1595408487497" />
-    <state width="1240" height="330" key="GridCell.Tab.0.bottom" timestamp="1595423608544">
+    <state width="1240" height="236" key="GridCell.Tab.0.bottom" timestamp="1595424166811">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1240" height="330" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1595423608544" />
-    <state width="1240" height="330" key="GridCell.Tab.0.center" timestamp="1595423608543">
+    <state width="1240" height="236" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1595424166811" />
+    <state width="1240" height="236" key="GridCell.Tab.0.center" timestamp="1595424166809">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1240" height="330" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1595423608543" />
-    <state width="1240" height="330" key="GridCell.Tab.0.left" timestamp="1595423608543">
+    <state width="1240" height="236" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1595424166809" />
+    <state width="1240" height="236" key="GridCell.Tab.0.left" timestamp="1595424166808">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1240" height="330" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1595423608543" />
-    <state width="1240" height="330" key="GridCell.Tab.0.right" timestamp="1595423608543">
+    <state width="1240" height="236" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1595424166808" />
+    <state width="1240" height="236" key="GridCell.Tab.0.right" timestamp="1595424166811">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1240" height="330" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1595423608543" />
+    <state width="1240" height="236" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1595424166811" />
+    <state width="1240" height="236" key="GridCell.Tab.1.bottom" timestamp="1595424167409">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state width="1240" height="236" key="GridCell.Tab.1.bottom/72.27.1294.741@72.27.1294.741" timestamp="1595424167409" />
+    <state width="1240" height="236" key="GridCell.Tab.1.center" timestamp="1595424167408">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state width="1240" height="236" key="GridCell.Tab.1.center/72.27.1294.741@72.27.1294.741" timestamp="1595424167408" />
+    <state width="1240" height="236" key="GridCell.Tab.1.left" timestamp="1595424167399">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state width="1240" height="236" key="GridCell.Tab.1.left/72.27.1294.741@72.27.1294.741" timestamp="1595424167399" />
+    <state width="1240" height="236" key="GridCell.Tab.1.right" timestamp="1595424167409">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state width="1240" height="236" key="GridCell.Tab.1.right/72.27.1294.741@72.27.1294.741" timestamp="1595424167409" />
     <state x="200" y="31" width="1037" height="737" key="SettingsEditor" timestamp="1595408062993">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="200" y="31" width="1037" height="737" key="SettingsEditor/72.27.1294.741@72.27.1294.741" timestamp="1595408062993" />
+    <state x="488" y="307" width="451" height="187" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595424009333">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="488" y="307" width="451" height="187" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/72.27.1294.741@72.27.1294.741" timestamp="1595424009333" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/qingfeng/tree/HeroNode.java</url>
+          <line>138</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
