@@ -1,4 +1,5 @@
 package com.qingfeng.tree;
+
 @SuppressWarnings("all")
 class BinaryTree {
     private HeroNode root;
@@ -54,7 +55,17 @@ class BinaryTree {
             return null;
         }
     }
-
+public void delNode(int no){
+        if (root!=null){
+            if (root.getNo()==no){
+                root=null;
+            }else {
+                root.delNode(no);
+            }
+        }else {
+            System.out.println("it can not deleted!");
+        }
+}
 
 }
 
@@ -121,6 +132,17 @@ public class HeroNode {
         } else {
             System.out.println("未找到任何信息！");
         }
+        System.out.println("------------------------------------");
+
+        System.out.println("删除前....");
+        binaryTree.preOrder();
+        binaryTree.delNode(3);
+        System.out.println("删除后...");
+        binaryTree.preOrder();
+
+
+
+
 
     }
 
@@ -280,5 +302,25 @@ public class HeroNode {
         return resNode;
     }
 
+    /**
+     * 删除结点
+     * @param no 编号
+     */
+    public void delNode(int no) {
+        if (this.left != null && this.left.no == no) {
+            this.left = null;
+            return;
+        }
+        if (this.right != null && this.right.no == no) {
+            this.right = null;
+            return;
+        }
+        if (this.left != null) {
+            this.left.delNode(no);
+        }
+        if (this.right != null) {
+            this.right.delNode(no);
+        }
+    }
 
 }
