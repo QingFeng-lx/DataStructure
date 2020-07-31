@@ -1,13 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b2f83515-7d71-4f2b-9f45-d14004c5092b" name="Default Changelist" comment="二叉树删除结点">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/algorithm/order/insert/DirectInsertSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/linkedList/SingleLinkedListDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -18,11 +46,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/qingfeng" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -32,7 +62,20 @@
       <recent name="$PROJECT_DIR$/src/com/qingfeng" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HeroNode">
+  <component name="RunManager" selected="Application.SingleLinkedListDemo">
+    <configuration name="DirectInsertSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qingfeng.algorithm.order.insert.DirectInsertSort" />
+      <module name="DataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qingfeng.algorithm.order.insert.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Graph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.qingfeng.graph.Graph" />
       <module name="DataStructure" />
@@ -59,16 +102,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.qingfeng.Main" />
-      <module name="DataStructure" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SearchReturn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.qingfeng.algorithm.SearchReturn" />
       <module name="DataStructure" />
@@ -82,14 +115,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SingleLinkedListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qingfeng.linkedList.SingleLinkedListDemo" />
+      <module name="DataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qingfeng.linkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.SearchReturn" />
       <item itemvalue="Application.Graph" />
       <item itemvalue="Application.HeroNode" />
+      <item itemvalue="Application.DirectInsertSort" />
+      <item itemvalue="Application.SingleLinkedListDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SingleLinkedListDemo" />
+        <item itemvalue="Application.DirectInsertSort" />
         <item itemvalue="Application.HeroNode" />
         <item itemvalue="Application.Graph" />
         <item itemvalue="Application.SearchReturn" />
@@ -107,6 +156,8 @@
       <option name="presentableId" value="Default" />
       <updated>1595407655729</updated>
       <workItem from="1595407658782" duration="3927000" />
+      <workItem from="1596073282257" duration="2041000" />
+      <workItem from="1596156780956" duration="5757000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1595407902093</created>
@@ -149,12 +200,28 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init commit" />
     <MESSAGE value="二叉树删除结点" />
     <option name="LAST_COMMIT_MESSAGE" value="二叉树删除结点" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="527" y="116" width="563" height="576" key="#com.intellij.ide.util.MemberChooser" timestamp="1596200755303">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="527" y="116" width="563" height="576" key="#com.intellij.ide.util.MemberChooser/72.27.1294.741@72.27.1294.741" timestamp="1596200755303" />
     <state x="556" y="292" width="325" height="217" key="Github.ShareDialog" timestamp="1595408482990">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
@@ -163,46 +230,54 @@
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="442" y="27" width="543" height="741" key="Github.UntrackedFilesDialog/72.27.1294.741@72.27.1294.741" timestamp="1595408487497" />
-    <state width="1240" height="236" key="GridCell.Tab.0.bottom" timestamp="1595424166811">
+    <state width="1240" height="264" key="GridCell.Tab.0.bottom" timestamp="1596201158895">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1240" height="236" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1595424166811" />
-    <state width="1240" height="236" key="GridCell.Tab.0.center" timestamp="1595424166809">
+    <state width="1240" height="264" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1596201158895" />
+    <state width="1240" height="264" key="GridCell.Tab.0.center" timestamp="1596201158894">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1240" height="236" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1595424166809" />
-    <state width="1240" height="236" key="GridCell.Tab.0.left" timestamp="1595424166808">
+    <state width="1240" height="264" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1596201158894" />
+    <state width="1240" height="264" key="GridCell.Tab.0.left" timestamp="1596201158893">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1240" height="236" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1595424166808" />
-    <state width="1240" height="236" key="GridCell.Tab.0.right" timestamp="1595424166811">
+    <state width="1240" height="264" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1596201158893" />
+    <state width="1240" height="264" key="GridCell.Tab.0.right" timestamp="1596201158894">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1240" height="236" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1595424166811" />
-    <state width="1240" height="236" key="GridCell.Tab.1.bottom" timestamp="1595424167409">
+    <state width="1240" height="264" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1596201158894" />
+    <state width="1240" height="211" key="GridCell.Tab.1.bottom" timestamp="1596076088203">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1240" height="236" key="GridCell.Tab.1.bottom/72.27.1294.741@72.27.1294.741" timestamp="1595424167409" />
-    <state width="1240" height="236" key="GridCell.Tab.1.center" timestamp="1595424167408">
+    <state width="1240" height="211" key="GridCell.Tab.1.bottom/72.27.1294.741@72.27.1294.741" timestamp="1596076088203" />
+    <state width="1240" height="211" key="GridCell.Tab.1.center" timestamp="1596076088201">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1240" height="236" key="GridCell.Tab.1.center/72.27.1294.741@72.27.1294.741" timestamp="1595424167408" />
-    <state width="1240" height="236" key="GridCell.Tab.1.left" timestamp="1595424167399">
+    <state width="1240" height="211" key="GridCell.Tab.1.center/72.27.1294.741@72.27.1294.741" timestamp="1596076088201" />
+    <state width="1240" height="211" key="GridCell.Tab.1.left" timestamp="1596076088201">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1240" height="236" key="GridCell.Tab.1.left/72.27.1294.741@72.27.1294.741" timestamp="1595424167399" />
-    <state width="1240" height="236" key="GridCell.Tab.1.right" timestamp="1595424167409">
+    <state width="1240" height="211" key="GridCell.Tab.1.left/72.27.1294.741@72.27.1294.741" timestamp="1596076088201" />
+    <state width="1240" height="211" key="GridCell.Tab.1.right" timestamp="1596076088202">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1240" height="236" key="GridCell.Tab.1.right/72.27.1294.741@72.27.1294.741" timestamp="1595424167409" />
-    <state x="200" y="31" width="1037" height="737" key="SettingsEditor" timestamp="1595408062993">
+    <state width="1240" height="211" key="GridCell.Tab.1.right/72.27.1294.741@72.27.1294.741" timestamp="1596076088202" />
+    <state x="200" y="31" width="1037" height="737" key="SettingsEditor" timestamp="1596159507138">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state x="200" y="31" width="1037" height="737" key="SettingsEditor/72.27.1294.741@72.27.1294.741" timestamp="1595408062993" />
+    <state x="200" y="31" width="1037" height="737" key="SettingsEditor/72.27.1294.741@72.27.1294.741" timestamp="1596159507138" />
     <state x="488" y="307" width="451" height="187" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595424009333">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="488" y="307" width="451" height="187" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/72.27.1294.741@72.27.1294.741" timestamp="1595424009333" />
+    <state width="760" height="458" key="documentation.popup.size" timestamp="1596176634321">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state width="760" height="458" key="documentation.popup.size/72.27.1294.741@72.27.1294.741" timestamp="1596176634321" />
+    <state width="758" height="456" key="javadoc.popup.new" timestamp="1596176634323">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state width="758" height="456" key="javadoc.popup.new/72.27.1294.741@72.27.1294.741" timestamp="1596176634323" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
