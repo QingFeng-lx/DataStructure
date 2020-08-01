@@ -5,22 +5,38 @@ package com.qingfeng.linkedList;
  */
 public class SingleLinkedListDemo {
     public static void main(String[] args) {
-        StudentNode node1 = new StudentNode(1,2018010210,"liuxin");
-        StudentNode node2 = new StudentNode(2,2018010211,"liuyuan");
-        StudentNode node3= new StudentNode(3,2018010212,"luxiaoyu");
+        StudentNode node1 = new StudentNode(1, 2018010210, "liuxin");
+        StudentNode node2 = new StudentNode(2, 2018010211, "liuyuan");
+        StudentNode node3 = new StudentNode(3, 2018010212, "luxiaoyu");
+
 
         SingleLinkedList linkedList = new SingleLinkedList();
-        linkedList.add(node1);
+        /*------------------------------------------------------------------------*/
+        /*linkedList.add(node1);
         linkedList.add(node2);
         linkedList.add(node3);
 
+        linkedList.list();*/
+        /*------------------------------------------------------------------------*/
+        linkedList.addByOrder(node1);
+        linkedList.addByOrder(node3);
+        linkedList.addByOrder(node2);
+
+        linkedList.addByOrder(node1);
+        linkedList.addByOrder(node2);
+
+
         linkedList.list();
+
+        /*------------------------------------------------------------------------*/
     }
 }
-class StudentNode{
-    private int id;
-    private int num;
-    private String name;
+
+class StudentNode {
+
+    public int id;
+    public int num;
+    public String name;
     public StudentNode next;
 
     public StudentNode(int id, int num, String name) {
@@ -37,46 +53,79 @@ class StudentNode{
                 '}';
     }
 }
-class SingleLinkedList{
+
+class SingleLinkedList {
     /**
      * init a node of head
      */
-    private StudentNode head=new StudentNode(0,0,"");
+    private StudentNode head = new StudentNode(0, 0, "");
 
     /**
      * create node of LinkedList
+     *
      * @param studentNode
      */
-    public void add(StudentNode studentNode){
-        StudentNode temp=head;
-        while (true){
-            if (temp.next==null){
+    public void add(StudentNode studentNode) {
+        StudentNode temp = head;
+        while (true) {
+            if (temp.next == null) {
                 break;
-            }else {
-                temp=temp.next;
+            } else {
+                temp = temp.next;
 
             }
         }
-        temp.next=studentNode;
+        temp.next = studentNode;
+    }
+
+    /**
+     * create a node by order
+     *
+     * @param studentNode
+     */
+    public void addByOrder(StudentNode studentNode) {
+        //get a head node
+        StudentNode temp = head;
+        boolean flag = false;
+        while (true) {
+            if (temp.next == null) {
+                break;
+            }
+            if (temp.next.id > studentNode.id) {
+                break;
+            } else if (temp.next.id == studentNode.id) {
+                flag = true;
+                break;
+            }
+            temp = temp.next;
+        }
+        if (flag) {
+            System.out.println(studentNode.id + "  is existed and can't add again!");
+        } else {
+            studentNode.next = temp.next;
+            temp.next = studentNode;
+
+        }
+
     }
 
     /**
      * order the list
      */
-    public void list(){
-        if (head.next==null){
+    public void list() {
+        if (head.next == null) {
             System.out.println("LinkedList is empty!");
             return;
         }
 
-        StudentNode temp=head.next;
-        while (true){
-            if (temp==null){
+        StudentNode temp = head.next;
+        while (true) {
+            if (temp == null) {
                 break;
-            }else {
+            } else {
                 System.out.println(temp);
             }
-            temp=temp.next;
+            temp = temp.next;
         }
     }
 }

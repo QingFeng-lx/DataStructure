@@ -19,11 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2f83515-7d71-4f2b-9f45-d14004c5092b" name="Default Changelist" comment="二叉树删除结点">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/algorithm/order/insert/DirectInsertSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/linkedList/SingleLinkedListDemo.java" afterDir="false" />
+    <list default="true" id="b2f83515-7d71-4f2b-9f45-d14004c5092b" name="Default Changelist" comment="SingleLinkedList create,order">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/linkedList/SingleLinkedListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/linkedList/SingleLinkedListDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +155,8 @@
       <updated>1595407655729</updated>
       <workItem from="1595407658782" duration="3927000" />
       <workItem from="1596073282257" duration="2041000" />
-      <workItem from="1596156780956" duration="5757000" />
+      <workItem from="1596156780956" duration="6302000" />
+      <workItem from="1596286616512" duration="2150000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1595407902093</created>
@@ -194,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595424020078</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="SingleLinkedList create,order">
+      <created>1596201618973</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1596201618973</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,7 +221,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init commit" />
     <MESSAGE value="二叉树删除结点" />
-    <option name="LAST_COMMIT_MESSAGE" value="二叉树删除结点" />
+    <MESSAGE value="SingleLinkedList create,order" />
+    <option name="LAST_COMMIT_MESSAGE" value="SingleLinkedList create,order" />
   </component>
   <component name="WindowStateProjectService">
     <state x="527" y="116" width="563" height="576" key="#com.intellij.ide.util.MemberChooser" timestamp="1596200755303">
@@ -230,38 +237,38 @@
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="442" y="27" width="543" height="741" key="Github.UntrackedFilesDialog/72.27.1294.741@72.27.1294.741" timestamp="1595408487497" />
-    <state width="1240" height="264" key="GridCell.Tab.0.bottom" timestamp="1596201158895">
+    <state width="1240" height="194" key="GridCell.Tab.0.bottom" timestamp="1596288779483">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1240" height="264" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1596201158895" />
-    <state width="1240" height="264" key="GridCell.Tab.0.center" timestamp="1596201158894">
+    <state width="1240" height="194" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1596288779483" />
+    <state width="1240" height="194" key="GridCell.Tab.0.center" timestamp="1596288779482">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1240" height="264" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1596201158894" />
-    <state width="1240" height="264" key="GridCell.Tab.0.left" timestamp="1596201158893">
+    <state width="1240" height="194" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1596288779482" />
+    <state width="1240" height="194" key="GridCell.Tab.0.left" timestamp="1596288779482">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1240" height="264" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1596201158893" />
-    <state width="1240" height="264" key="GridCell.Tab.0.right" timestamp="1596201158894">
+    <state width="1240" height="194" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1596288779482" />
+    <state width="1240" height="194" key="GridCell.Tab.0.right" timestamp="1596288779483">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1240" height="264" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1596201158894" />
-    <state width="1240" height="211" key="GridCell.Tab.1.bottom" timestamp="1596076088203">
+    <state width="1240" height="194" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1596288779483" />
+    <state width="1240" height="211" key="GridCell.Tab.1.bottom" timestamp="1596288041254">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1240" height="211" key="GridCell.Tab.1.bottom/72.27.1294.741@72.27.1294.741" timestamp="1596076088203" />
-    <state width="1240" height="211" key="GridCell.Tab.1.center" timestamp="1596076088201">
+    <state width="1240" height="211" key="GridCell.Tab.1.bottom/72.27.1294.741@72.27.1294.741" timestamp="1596288041254" />
+    <state width="1240" height="211" key="GridCell.Tab.1.center" timestamp="1596288041253">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1240" height="211" key="GridCell.Tab.1.center/72.27.1294.741@72.27.1294.741" timestamp="1596076088201" />
-    <state width="1240" height="211" key="GridCell.Tab.1.left" timestamp="1596076088201">
+    <state width="1240" height="211" key="GridCell.Tab.1.center/72.27.1294.741@72.27.1294.741" timestamp="1596288041253" />
+    <state width="1240" height="211" key="GridCell.Tab.1.left" timestamp="1596288041253">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1240" height="211" key="GridCell.Tab.1.left/72.27.1294.741@72.27.1294.741" timestamp="1596076088201" />
-    <state width="1240" height="211" key="GridCell.Tab.1.right" timestamp="1596076088202">
+    <state width="1240" height="211" key="GridCell.Tab.1.left/72.27.1294.741@72.27.1294.741" timestamp="1596288041253" />
+    <state width="1240" height="211" key="GridCell.Tab.1.right" timestamp="1596288041253">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1240" height="211" key="GridCell.Tab.1.right/72.27.1294.741@72.27.1294.741" timestamp="1596076088202" />
+    <state width="1240" height="211" key="GridCell.Tab.1.right/72.27.1294.741@72.27.1294.741" timestamp="1596288041253" />
     <state x="200" y="31" width="1037" height="737" key="SettingsEditor" timestamp="1596159507138">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
