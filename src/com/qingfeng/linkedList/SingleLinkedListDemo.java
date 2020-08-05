@@ -8,7 +8,7 @@ public class SingleLinkedListDemo {
         StudentNode node1 = new StudentNode(1, 2018010210, "liuxin");
         StudentNode node2 = new StudentNode(2, 2018010211, "liuyuan");
         StudentNode node3 = new StudentNode(3, 2018010212, "luxiaoyu");
-        
+
         SingleLinkedList linkedList = new SingleLinkedList();
         /*------------------------------------------------------------------------*/
         /*linkedList.add(node1);
@@ -29,6 +29,12 @@ public class SingleLinkedListDemo {
         System.out.println();
         StudentNode updateNode = new StudentNode(3, 2018010218, "huge");
         linkedList.update(updateNode);
+        linkedList.list();
+
+        /*------------------------------------------------------------------------*/
+        System.out.println();
+        linkedList.remove(3);
+        linkedList.remove(1);
         linkedList.list();
 
     }
@@ -140,6 +146,29 @@ class SingleLinkedList {
         }
     }
 
+    /**
+     * remove a node by id
+     * @param id
+     */
+    public void remove(int id){
+        StudentNode temp=head;
+        boolean flag=false;
+        while (true){
+            if (temp.next==null){
+                break;
+            }
+            if (temp.next.id==id){
+                flag=true;
+                break;
+            }
+            temp=temp.next;
+        }
+        if (flag){
+            temp.next=temp.next.next;
+        }else {
+            System.out.println("Can't find the node for id!");
+        }
+    }
     /**
      * order the list
      */

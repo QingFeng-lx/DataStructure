@@ -157,7 +157,8 @@
       <workItem from="1596073282257" duration="2041000" />
       <workItem from="1596156780956" duration="6302000" />
       <workItem from="1596286616512" duration="2451000" />
-      <workItem from="1596456863597" duration="1477000" />
+      <workItem from="1596456863597" duration="2563000" />
+      <workItem from="1596616404409" duration="1235000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1595407902093</created>
@@ -230,6 +231,10 @@
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="527" y="116" width="563" height="576" key="#com.intellij.ide.util.MemberChooser/72.27.1294.741@72.27.1294.741" timestamp="1596200755303" />
+    <state x="496" y="143" width="424" height="522" key="FileChooserDialogImpl" timestamp="1596459185058">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="496" y="143" width="424" height="522" key="FileChooserDialogImpl/72.27.1294.741@72.27.1294.741" timestamp="1596459185058" />
     <state x="556" y="292" width="325" height="217" key="Github.ShareDialog" timestamp="1595408482990">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
@@ -238,22 +243,22 @@
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="442" y="27" width="543" height="741" key="Github.UntrackedFilesDialog/72.27.1294.741@72.27.1294.741" timestamp="1595408487497" />
-    <state width="1240" height="211" key="GridCell.Tab.0.bottom" timestamp="1596289077195">
+    <state width="1246" height="221" key="GridCell.Tab.0.bottom" timestamp="1596458759014">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1240" height="211" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1596289077195" />
-    <state width="1240" height="211" key="GridCell.Tab.0.center" timestamp="1596289077195">
+    <state width="1246" height="221" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1596458759014" />
+    <state width="1246" height="221" key="GridCell.Tab.0.center" timestamp="1596458759013">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1240" height="211" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1596289077195" />
-    <state width="1240" height="211" key="GridCell.Tab.0.left" timestamp="1596289077194">
+    <state width="1246" height="221" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1596458759013" />
+    <state width="1246" height="221" key="GridCell.Tab.0.left" timestamp="1596458759012">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1240" height="211" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1596289077194" />
-    <state width="1240" height="211" key="GridCell.Tab.0.right" timestamp="1596289077195">
+    <state width="1246" height="221" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1596458759012" />
+    <state width="1246" height="221" key="GridCell.Tab.0.right" timestamp="1596458759013">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1240" height="211" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1596289077195" />
+    <state width="1246" height="221" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1596458759013" />
     <state width="1240" height="211" key="GridCell.Tab.1.bottom" timestamp="1596289077197">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
@@ -286,6 +291,10 @@
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state width="758" height="456" key="javadoc.popup.new/72.27.1294.741@72.27.1294.741" timestamp="1596176634323" />
+    <state x="114" y="99" width="1199" height="603" key="new project wizard" timestamp="1596459191915">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="114" y="99" width="1199" height="603" key="new project wizard/72.27.1294.741@72.27.1294.741" timestamp="1596459191915" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
