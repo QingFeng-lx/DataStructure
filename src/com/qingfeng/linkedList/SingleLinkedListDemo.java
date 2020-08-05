@@ -3,6 +3,7 @@ package com.qingfeng.linkedList;
 /**
  * test
  */
+@SuppressWarnings("all")
 public class SingleLinkedListDemo {
     public static void main(String[] args) {
         StudentNode node1 = new StudentNode(1, 2018010210, "liuxin");
@@ -34,8 +35,22 @@ public class SingleLinkedListDemo {
         /*------------------------------------------------------------------------*/
         System.out.println();
         linkedList.remove(3);
-        linkedList.remove(1);
+        //linkedList.remove(1);
         linkedList.list();
+        /*------------------------------------------------------------------------*/
+        System.out.println();
+        int length = linkedList.getLength(linkedList.getHead());
+        System.out.println("length:"+length);
+        /*------------------------------------------------------------------------*/
+        System.out.println();
+        StudentNode lastIndexNode = linkedList.getLastIndexNode(linkedList.getHead(), 1);
+        System.out.println(lastIndexNode);
+        /*------------------------------------------------------------------------*/
+        System.out.println();
+        linkedList.reverseList(linkedList.getHead());
+        linkedList.list();
+
+
 
     }
 }
@@ -68,11 +83,16 @@ class SingleLinkedList {
      */
     private StudentNode head = new StudentNode(0, 0, "");
 
+    public StudentNode getHead() {
+        return head;
+    }
+
     /**
      * create node of LinkedList
      *
      * @param studentNode
      */
+
     public void add(StudentNode studentNode) {
         StudentNode temp = head;
         while (true) {
@@ -168,6 +188,65 @@ class SingleLinkedList {
         }else {
             System.out.println("Can't find the node for id!");
         }
+    }
+
+    /**
+     * get length of linkedList
+     * @param head
+     * @return
+     */
+    public int getLength(StudentNode head){
+        if (head.next==null){
+            return 0;
+        }
+        int length=0;
+        StudentNode cur=head.next;
+        while (cur!=null){
+            length++;
+            cur=cur.next;
+        }
+        return length;
+    }
+
+    /**
+     * get a node of lastIndex
+     * @param head
+     * @param index
+     * @return
+     */
+    public StudentNode getLastIndexNode(StudentNode head,int index){
+        if (head.next==null){
+            return null;
+        }
+        int size=getLength(head);
+        if (index<=0||index>size){
+            return null;
+        }
+        StudentNode cur=head.next;
+         for (int i=0;i<size-index;i++){
+             cur=cur.next;
+         }
+         return cur;
+    }
+
+    /**
+     * reverse a list
+     * @param head
+     */
+    public void reverseList(StudentNode head){
+        if (head.next==null||head.next.next==null){
+            return;
+        }
+        StudentNode cur=head.next;
+        StudentNode next=null;
+        StudentNode reverseHead=new StudentNode(0,0,"");
+        while (cur!=null){
+            next=cur.next;
+            cur.next=reverseHead.next;
+            reverseHead.next=cur;
+            cur=next;
+        }
+        head.next=reverseHead.next;
     }
     /**
      * order the list

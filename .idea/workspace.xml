@@ -158,7 +158,7 @@
       <workItem from="1596156780956" duration="6302000" />
       <workItem from="1596286616512" duration="2451000" />
       <workItem from="1596456863597" duration="2563000" />
-      <workItem from="1596616404409" duration="1235000" />
+      <workItem from="1596616404409" duration="4272000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1595407902093</created>
@@ -227,10 +227,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="SingleLinkedList create,order" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="527" y="116" width="563" height="576" key="#com.intellij.ide.util.MemberChooser" timestamp="1596200755303">
+    <state x="527" y="116" width="563" height="576" key="#com.intellij.ide.util.MemberChooser" timestamp="1596634296532">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state x="527" y="116" width="563" height="576" key="#com.intellij.ide.util.MemberChooser/72.27.1294.741@72.27.1294.741" timestamp="1596200755303" />
+    <state x="527" y="116" width="563" height="576" key="#com.intellij.ide.util.MemberChooser/72.27.1294.741@72.27.1294.741" timestamp="1596634296532" />
     <state x="496" y="143" width="424" height="522" key="FileChooserDialogImpl" timestamp="1596459185058">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
@@ -243,22 +243,22 @@
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="442" y="27" width="543" height="741" key="Github.UntrackedFilesDialog/72.27.1294.741@72.27.1294.741" timestamp="1595408487497" />
-    <state width="1246" height="221" key="GridCell.Tab.0.bottom" timestamp="1596458759014">
+    <state width="1240" height="123" key="GridCell.Tab.0.bottom" timestamp="1596635447831">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1246" height="221" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1596458759014" />
-    <state width="1246" height="221" key="GridCell.Tab.0.center" timestamp="1596458759013">
+    <state width="1240" height="123" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1596635447831" />
+    <state width="1240" height="123" key="GridCell.Tab.0.center" timestamp="1596635447830">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1246" height="221" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1596458759013" />
-    <state width="1246" height="221" key="GridCell.Tab.0.left" timestamp="1596458759012">
+    <state width="1240" height="123" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1596635447830" />
+    <state width="1240" height="123" key="GridCell.Tab.0.left" timestamp="1596635447830">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1246" height="221" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1596458759012" />
-    <state width="1246" height="221" key="GridCell.Tab.0.right" timestamp="1596458759013">
+    <state width="1240" height="123" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1596635447830" />
+    <state width="1240" height="123" key="GridCell.Tab.0.right" timestamp="1596635447831">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1246" height="221" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1596458759013" />
+    <state width="1240" height="123" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1596635447831" />
     <state width="1240" height="211" key="GridCell.Tab.1.bottom" timestamp="1596289077197">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
