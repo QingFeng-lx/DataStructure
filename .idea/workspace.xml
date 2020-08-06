@@ -20,13 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2f83515-7d71-4f2b-9f45-d14004c5092b" name="Default Changelist" comment="SingleLinkedList create,order">
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/linkedList/single/SingleLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/linkedList/single/StudentNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/stack/array/ArrayStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/stack/array/ArrayStackTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/com/qingfeng/linkedList/doubles/DoubleLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructure/com/qingfeng/linkedList/doubles/DoubleLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/com/qingfeng/linkedList/doubles/StudentNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructure/com/qingfeng/linkedList/doubles/StudentNode.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DataStructure/com/qingfeng/linkedList/single/SingleLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructure/com/qingfeng/linkedList/single/SingleLinkedList.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DataStructure/com/qingfeng/linkedList/single/StudentNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructure/com/qingfeng/linkedList/single/StudentNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/linkedList/doubles/DoubleLinkedListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/linkedList/doubles/DoubleLinkedListDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/linkedList/single/SingleLinkedListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/linkedList/single/SingleLinkedListDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/linkedList/doubles/DoubleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/linkedList/doubles/DoubleLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +68,20 @@
       <recent name="$PROJECT_DIR$/src/com/qingfeng" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SingleLinkedListDemo">
+  <component name="RunManager" selected="Application.ArrayStackTest">
+    <configuration name="ArrayStackTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qingfeng.stack.array.ArrayStackTest" />
+      <module name="DataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qingfeng.stack.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DirectInsertSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.qingfeng.algorithm.order.insert.DirectInsertSort" />
       <module name="DataStructure" />
@@ -87,19 +101,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.qingfeng.linkedList.doubles.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Graph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qingfeng.graph.Graph" />
-      <module name="DataStructure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.qingfeng.graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,19 +135,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Graph" />
       <item itemvalue="Application.HeroNode" />
       <item itemvalue="Application.DirectInsertSort" />
       <item itemvalue="Application.SingleLinkedListDemo" />
       <item itemvalue="Application.DoubleLinkedListDemo" />
+      <item itemvalue="Application.ArrayStackTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayStackTest" />
         <item itemvalue="Application.SingleLinkedListDemo" />
         <item itemvalue="Application.DoubleLinkedListDemo" />
         <item itemvalue="Application.DirectInsertSort" />
         <item itemvalue="Application.HeroNode" />
-        <item itemvalue="Application.Graph" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +168,7 @@
       <workItem from="1596456863597" duration="2563000" />
       <workItem from="1596616404409" duration="4272000" />
       <workItem from="1596676982115" duration="6332000" />
-      <workItem from="1596700620633" duration="3352000" />
+      <workItem from="1596700620633" duration="9514000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1595407902093</created>
@@ -236,10 +237,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="SingleLinkedList create,order" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="527" y="116" width="563" height="576" key="#com.intellij.ide.util.MemberChooser" timestamp="1596700820965">
+    <state x="527" y="116" width="563" height="576" key="#com.intellij.ide.util.MemberChooser" timestamp="1596719452939">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state x="527" y="116" width="563" height="576" key="#com.intellij.ide.util.MemberChooser/72.27.1294.741@72.27.1294.741" timestamp="1596700820965" />
+    <state x="527" y="116" width="563" height="576" key="#com.intellij.ide.util.MemberChooser/72.27.1294.741@72.27.1294.741" timestamp="1596719452939" />
     <state x="496" y="143" width="424" height="522" key="FileChooserDialogImpl" timestamp="1596459185058">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
@@ -252,22 +253,22 @@
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="442" y="27" width="543" height="741" key="Github.UntrackedFilesDialog/72.27.1294.741@72.27.1294.741" timestamp="1595408487497" />
-    <state width="1240" height="3" key="GridCell.Tab.0.bottom" timestamp="1596700863662">
+    <state width="1240" height="131" key="GridCell.Tab.0.bottom" timestamp="1596718842479">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1240" height="3" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1596700863662" />
-    <state width="1240" height="3" key="GridCell.Tab.0.center" timestamp="1596700863661">
+    <state width="1240" height="131" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1596718842479" />
+    <state width="1240" height="131" key="GridCell.Tab.0.center" timestamp="1596718842478">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1240" height="3" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1596700863661" />
-    <state width="1240" height="3" key="GridCell.Tab.0.left" timestamp="1596700863661">
+    <state width="1240" height="131" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1596718842478" />
+    <state width="1240" height="131" key="GridCell.Tab.0.left" timestamp="1596718842477">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1240" height="3" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1596700863661" />
-    <state width="1240" height="3" key="GridCell.Tab.0.right" timestamp="1596700863662">
+    <state width="1240" height="131" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1596718842477" />
+    <state width="1240" height="131" key="GridCell.Tab.0.right" timestamp="1596718842479">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1240" height="3" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1596700863662" />
+    <state width="1240" height="131" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1596718842479" />
     <state width="1240" height="181" key="GridCell.Tab.1.bottom" timestamp="1596681369958">
       <screen x="72" y="27" width="1294" height="741" />
     </state>

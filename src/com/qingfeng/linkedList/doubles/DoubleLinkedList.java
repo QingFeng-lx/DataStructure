@@ -1,10 +1,14 @@
 package com.qingfeng.linkedList.doubles;
 
-class DoubleLinkedList {
+public class DoubleLinkedList {
     /**
      * init a node of head
      */
-    private StudentNode head = new StudentNode(0, 0, "");
+    private StudentNode head;
+
+    public DoubleLinkedList( ) {
+        head = new StudentNode(0, 0, "");
+    }
 
     public StudentNode getHead() {
         return head;
@@ -74,7 +78,7 @@ class DoubleLinkedList {
         StudentNode temp = head.next;
         boolean flag = false;
         while (true) {
-            if (temp== null) {
+            if (temp == null) {
                 break;
             }
             if (temp.id == id) {
@@ -84,10 +88,10 @@ class DoubleLinkedList {
             temp = temp.next;
         }
         if (flag) {
-             temp.pre.next=temp.next;
-             if (temp.next!=null){
-                 temp.next.pre=temp.pre;
-             }
+            temp.pre.next = temp.next;
+            if (temp.next != null) {
+                temp.next.pre = temp.pre;
+            }
 
 
         } else {
