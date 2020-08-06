@@ -1,4 +1,4 @@
-package com.qingfeng.linkedList;
+package com.qingfeng.linkedList.single;
 
 import java.util.Stack;
 
