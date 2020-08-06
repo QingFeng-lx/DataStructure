@@ -1,5 +1,7 @@
 package com.qingfeng.linkedList;
 
+import java.util.Stack;
+
 /**
  * test
  */
@@ -7,8 +9,8 @@ package com.qingfeng.linkedList;
 public class SingleLinkedListDemo {
     public static void main(String[] args) {
         StudentNode node1 = new StudentNode(1, 2018010210, "liuxin");
-        StudentNode node2 = new StudentNode(2, 2018010211, "liuyuan");
-        StudentNode node3 = new StudentNode(3, 2018010212, "luxiaoyu");
+        StudentNode node2 = new StudentNode(2, 2018010211, "yanghai");
+        StudentNode node3 = new StudentNode(3, 2018010212, "huxiaotian");
 
         SingleLinkedList linkedList = new SingleLinkedList();
         /*------------------------------------------------------------------------*/
@@ -22,33 +24,37 @@ public class SingleLinkedListDemo {
         linkedList.addByOrder(node3);
         linkedList.addByOrder(node2);
 
-        linkedList.addByOrder(node1);
-        linkedList.addByOrder(node2);
+        /*linkedList.addByOrder(node1);
+        linkedList.addByOrder(node2);*/
 
         linkedList.list();
         /*------------------------------------------------------------------------*/
-        System.out.println();
+       /* System.out.println();
         StudentNode updateNode = new StudentNode(3, 2018010218, "huge");
         linkedList.update(updateNode);
         linkedList.list();
-
+*/
         /*------------------------------------------------------------------------*/
-        System.out.println();
+       /* System.out.println();
         linkedList.remove(3);
         //linkedList.remove(1);
-        linkedList.list();
+        linkedList.list();*/
         /*------------------------------------------------------------------------*/
-        System.out.println();
+       /* System.out.println();
         int length = linkedList.getLength(linkedList.getHead());
-        System.out.println("length:"+length);
+        System.out.println("length:"+length);*/
         /*------------------------------------------------------------------------*/
-        System.out.println();
+       /* System.out.println();
         StudentNode lastIndexNode = linkedList.getLastIndexNode(linkedList.getHead(), 1);
-        System.out.println(lastIndexNode);
+        System.out.println(lastIndexNode);*/
+        /*------------------------------------------------------------------------*/
+        /*System.out.println();
+        linkedList.reverseList(linkedList.getHead());
+        linkedList.list();*/
         /*------------------------------------------------------------------------*/
         System.out.println();
-        linkedList.reverseList(linkedList.getHead());
-        linkedList.list();
+        linkedList.reversePrint(linkedList.getHead());
+
 
 
 
@@ -247,6 +253,26 @@ class SingleLinkedList {
             cur=next;
         }
         head.next=reverseHead.next;
+    }
+
+    /**
+     * print a list by reverse
+     * @param head
+     */
+    public void reversePrint(StudentNode head){
+        if (head.next==null){
+            return;
+        }
+        Stack<StudentNode> stack = new Stack<StudentNode>();
+        StudentNode cur=head.next;
+        while (cur!=null){
+            stack.push(cur);
+            cur=cur.next;
+        }
+        while (stack.size()>0){
+            System.out.println(stack.pop());
+        }
+
     }
     /**
      * order the list
