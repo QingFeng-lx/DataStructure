@@ -20,14 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2f83515-7d71-4f2b-9f45-d14004c5092b" name="Default Changelist" comment="SingleLinkedList create,order">
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/stack/array/ArrayStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/stack/array/ArrayStackTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/stack/practice/ArrayStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/stack/practice/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/stack/practice/CalculatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DataStructure/com/qingfeng/linkedList/doubles/DoubleLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructure/com/qingfeng/linkedList/doubles/DoubleLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/com/qingfeng/linkedList/doubles/StudentNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructure/com/qingfeng/linkedList/doubles/StudentNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/com/qingfeng/linkedList/single/SingleLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructure/com/qingfeng/linkedList/single/SingleLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/com/qingfeng/linkedList/single/StudentNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructure/com/qingfeng/linkedList/single/StudentNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/linkedList/doubles/DoubleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/linkedList/doubles/DoubleLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructure/com/qingfeng/stack/array/ArrayStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructure/com/qingfeng/stack/array/ArrayStack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/stack/array/ArrayStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/stack/array/ArrayStack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +59,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.qingfeng.stack.practice" />
       <recent name="com.qingfeng.linkedList.doubles" />
       <recent name="com.qingfeng.algorithm" />
     </key>
@@ -68,13 +68,26 @@
       <recent name="$PROJECT_DIR$/src/com/qingfeng" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArrayStackTest">
+  <component name="RunManager" selected="Application.CalculatorTest">
     <configuration name="ArrayStackTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.qingfeng.stack.array.ArrayStackTest" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.qingfeng.stack.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qingfeng.stack.practice.CalculatorTest" />
+      <module name="DataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qingfeng.stack.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,19 +121,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeroNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qingfeng.tree.HeroNode" />
-      <module name="DataStructure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.qingfeng.tree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SingleLinkedListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.qingfeng.linkedList.single.SingleLinkedListDemo" />
       <module name="DataStructure" />
@@ -135,19 +135,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.HeroNode" />
       <item itemvalue="Application.DirectInsertSort" />
       <item itemvalue="Application.SingleLinkedListDemo" />
       <item itemvalue="Application.DoubleLinkedListDemo" />
       <item itemvalue="Application.ArrayStackTest" />
+      <item itemvalue="Application.CalculatorTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CalculatorTest" />
         <item itemvalue="Application.ArrayStackTest" />
-        <item itemvalue="Application.SingleLinkedListDemo" />
         <item itemvalue="Application.DoubleLinkedListDemo" />
+        <item itemvalue="Application.SingleLinkedListDemo" />
         <item itemvalue="Application.DirectInsertSort" />
-        <item itemvalue="Application.HeroNode" />
       </list>
     </recent_temporary>
   </component>
@@ -169,6 +169,8 @@
       <workItem from="1596616404409" duration="4272000" />
       <workItem from="1596676982115" duration="6332000" />
       <workItem from="1596700620633" duration="9514000" />
+      <workItem from="1596758817745" duration="316000" />
+      <workItem from="1596764463043" duration="5462000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1595407902093</created>
@@ -253,50 +255,50 @@
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="442" y="27" width="543" height="741" key="Github.UntrackedFilesDialog/72.27.1294.741@72.27.1294.741" timestamp="1595408487497" />
-    <state width="1240" height="131" key="GridCell.Tab.0.bottom" timestamp="1596718842479">
+    <state width="1240" height="210" key="GridCell.Tab.0.bottom" timestamp="1596786016106">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1240" height="131" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1596718842479" />
-    <state width="1240" height="131" key="GridCell.Tab.0.center" timestamp="1596718842478">
+    <state width="1240" height="210" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1596786016106" />
+    <state width="1240" height="210" key="GridCell.Tab.0.center" timestamp="1596786016106">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1240" height="131" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1596718842478" />
-    <state width="1240" height="131" key="GridCell.Tab.0.left" timestamp="1596718842477">
+    <state width="1240" height="210" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1596786016106" />
+    <state width="1240" height="210" key="GridCell.Tab.0.left" timestamp="1596786016106">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1240" height="131" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1596718842477" />
-    <state width="1240" height="131" key="GridCell.Tab.0.right" timestamp="1596718842479">
+    <state width="1240" height="210" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1596786016106" />
+    <state width="1240" height="210" key="GridCell.Tab.0.right" timestamp="1596786016106">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1240" height="131" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1596718842479" />
-    <state width="1240" height="181" key="GridCell.Tab.1.bottom" timestamp="1596681369958">
+    <state width="1240" height="210" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1596786016106" />
+    <state width="1240" height="210" key="GridCell.Tab.1.bottom" timestamp="1596786016319">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1240" height="181" key="GridCell.Tab.1.bottom/72.27.1294.741@72.27.1294.741" timestamp="1596681369958" />
-    <state width="1240" height="181" key="GridCell.Tab.1.center" timestamp="1596681369957">
+    <state width="1240" height="210" key="GridCell.Tab.1.bottom/72.27.1294.741@72.27.1294.741" timestamp="1596786016319" />
+    <state width="1240" height="210" key="GridCell.Tab.1.center" timestamp="1596786016318">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1240" height="181" key="GridCell.Tab.1.center/72.27.1294.741@72.27.1294.741" timestamp="1596681369957" />
-    <state width="1240" height="181" key="GridCell.Tab.1.left" timestamp="1596681369957">
+    <state width="1240" height="210" key="GridCell.Tab.1.center/72.27.1294.741@72.27.1294.741" timestamp="1596786016318" />
+    <state width="1240" height="210" key="GridCell.Tab.1.left" timestamp="1596786016318">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1240" height="181" key="GridCell.Tab.1.left/72.27.1294.741@72.27.1294.741" timestamp="1596681369957" />
-    <state width="1240" height="181" key="GridCell.Tab.1.right" timestamp="1596681369957">
+    <state width="1240" height="210" key="GridCell.Tab.1.left/72.27.1294.741@72.27.1294.741" timestamp="1596786016318" />
+    <state width="1240" height="210" key="GridCell.Tab.1.right" timestamp="1596786016318">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1240" height="181" key="GridCell.Tab.1.right/72.27.1294.741@72.27.1294.741" timestamp="1596681369957" />
-    <state x="200" y="31" width="1037" height="737" key="SettingsEditor" timestamp="1596159507138">
+    <state width="1240" height="210" key="GridCell.Tab.1.right/72.27.1294.741@72.27.1294.741" timestamp="1596786016318" />
+    <state x="200" y="31" width="1037" height="737" key="SettingsEditor" timestamp="1596764995537">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state x="200" y="31" width="1037" height="737" key="SettingsEditor/72.27.1294.741@72.27.1294.741" timestamp="1596159507138" />
+    <state x="200" y="31" width="1037" height="737" key="SettingsEditor/72.27.1294.741@72.27.1294.741" timestamp="1596764995537" />
     <state x="488" y="307" width="451" height="187" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595424009333">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="488" y="307" width="451" height="187" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/72.27.1294.741@72.27.1294.741" timestamp="1595424009333" />
-    <state width="760" height="458" key="documentation.popup.size" timestamp="1596681766371">
+    <state width="760" height="458" key="documentation.popup.size" timestamp="1596785321550">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="760" height="458" key="documentation.popup.size/72.27.1294.741@72.27.1294.741" timestamp="1596681766371" />
+    <state width="760" height="458" key="documentation.popup.size/72.27.1294.741@72.27.1294.741" timestamp="1596785321550" />
     <state width="758" height="456" key="javadoc.popup.new" timestamp="1596176634323">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
@@ -305,5 +307,21 @@
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="114" y="99" width="1199" height="603" key="new project wizard/72.27.1294.741@72.27.1294.741" timestamp="1596459191915" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/qingfeng/stack/practice/CalculatorTest.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DataStructure$CalculatorTest.ic" NAME="CalculatorTest Coverage Results" MODIFIED="1596785765942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.qingfeng.stack.practice.*</FILTER>
+    </SUITE>
   </component>
 </project>

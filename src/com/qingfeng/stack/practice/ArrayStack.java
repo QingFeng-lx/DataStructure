@@ -1,4 +1,4 @@
-package com.qingfeng.stack.array;
+package com.qingfeng.stack.practice;
 
 @SuppressWarnings("all")
 public class ArrayStack {
@@ -9,7 +9,7 @@ public class ArrayStack {
     /**
      * a stack object
      */
-    private Object[] stack;
+    private int[] stack;
     /**
      * init the top of the stack
      * from 0 to  maxSize
@@ -18,7 +18,7 @@ public class ArrayStack {
 
     public ArrayStack(int maxSize) {
         this.maxSize = maxSize;
-        stack = new Object[this.maxSize];
+        stack = new int[this.maxSize];
     }
 
     /**
@@ -42,14 +42,14 @@ public class ArrayStack {
     /**
      * push a element
      *
-     * @param object
+     * @param value
      */
-    public void push(Object object) {
+    public void push(int value) {
         if (this.isFull()) {
             System.out.println("the stack is full ! can't push !");
             return;
         }
-        stack[++top] = object;
+        stack[++top] = value;
     }
 
     /**
@@ -57,7 +57,7 @@ public class ArrayStack {
      *
      * @return
      */
-    public Object pop() {
+    public int pop() {
         if (isFull()) {
             throw new RuntimeException("the stack is empty!");
         }
@@ -85,7 +85,7 @@ public class ArrayStack {
         return top+1;
     }
 
-    public Object pick(){
+    public int peek(){
         return stack[top];
     }
 }
