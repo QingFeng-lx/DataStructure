@@ -20,10 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2f83515-7d71-4f2b-9f45-d14004c5092b" name="Default Changelist" comment="SingleLinkedList create,order">
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/queue/ArrayQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/queue/ArrayQueueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/queue/CircleArrayQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/queue/CircleArrayQueueTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/stack/practice/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/stack/practice/CalculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +55,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.qingfeng.queue" />
       <recent name="com.qingfeng.stack.practice" />
       <recent name="com.qingfeng.linkedList.doubles" />
       <recent name="com.qingfeng.algorithm" />
@@ -65,7 +65,7 @@
       <recent name="$PROJECT_DIR$/src/com/qingfeng" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArrayQueueTest">
+  <component name="RunManager" selected="Application.CircleArrayQueueTest">
     <configuration name="ArrayQueueTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.qingfeng.queue.ArrayQueueTest" />
       <module name="DataStructure" />
@@ -105,6 +105,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CircleArrayQueueTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qingfeng.queue.CircleArrayQueueTest" />
+      <module name="DataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qingfeng.queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DoubleLinkedListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.qingfeng.linkedList.doubles.DoubleLinkedListDemo" />
       <module name="DataStructure" />
@@ -118,33 +131,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingleLinkedListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qingfeng.linkedList.single.SingleLinkedListDemo" />
-      <module name="DataStructure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.qingfeng.linkedList.single.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.SingleLinkedListDemo" />
       <item itemvalue="Application.DoubleLinkedListDemo" />
       <item itemvalue="Application.ArrayStackTest" />
       <item itemvalue="Application.CalculatorTest" />
       <item itemvalue="Application.ArrayQueueTest" />
+      <item itemvalue="Application.CircleArrayQueueTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CircleArrayQueueTest" />
         <item itemvalue="Application.ArrayQueueTest" />
         <item itemvalue="Application.CalculatorTest" />
         <item itemvalue="Application.ArrayStackTest" />
         <item itemvalue="Application.DoubleLinkedListDemo" />
-        <item itemvalue="Application.SingleLinkedListDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +168,8 @@
       <workItem from="1596700620633" duration="9514000" />
       <workItem from="1596758817745" duration="316000" />
       <workItem from="1596764463043" duration="5579000" />
-      <workItem from="1596803078847" duration="2239000" />
+      <workItem from="1596803078847" duration="2598000" />
+      <workItem from="1596847696807" duration="2379000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1595407902093</created>
@@ -253,38 +254,38 @@
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="442" y="27" width="543" height="741" key="Github.UntrackedFilesDialog/72.27.1294.741@72.27.1294.741" timestamp="1595408487497" />
-    <state width="1240" height="53" key="GridCell.Tab.0.bottom" timestamp="1596805911166">
+    <state width="1240" height="133" key="GridCell.Tab.0.bottom" timestamp="1596852775922">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1240" height="53" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1596805911166" />
-    <state width="1240" height="53" key="GridCell.Tab.0.center" timestamp="1596805911162">
+    <state width="1240" height="133" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1596852775922" />
+    <state width="1240" height="133" key="GridCell.Tab.0.center" timestamp="1596852775922">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1240" height="53" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1596805911162" />
-    <state width="1240" height="53" key="GridCell.Tab.0.left" timestamp="1596805911162">
+    <state width="1240" height="133" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1596852775922" />
+    <state width="1240" height="133" key="GridCell.Tab.0.left" timestamp="1596852775922">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1240" height="53" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1596805911162" />
-    <state width="1240" height="53" key="GridCell.Tab.0.right" timestamp="1596805911166">
+    <state width="1240" height="133" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1596852775922" />
+    <state width="1240" height="133" key="GridCell.Tab.0.right" timestamp="1596852775922">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1240" height="53" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1596805911166" />
-    <state width="1240" height="53" key="GridCell.Tab.1.bottom" timestamp="1596805911173">
+    <state width="1240" height="133" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1596852775922" />
+    <state width="1240" height="53" key="GridCell.Tab.1.bottom" timestamp="1596806278452">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1240" height="53" key="GridCell.Tab.1.bottom/72.27.1294.741@72.27.1294.741" timestamp="1596805911173" />
-    <state width="1240" height="53" key="GridCell.Tab.1.center" timestamp="1596805911168">
+    <state width="1240" height="53" key="GridCell.Tab.1.bottom/72.27.1294.741@72.27.1294.741" timestamp="1596806278452" />
+    <state width="1240" height="53" key="GridCell.Tab.1.center" timestamp="1596806278451">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1240" height="53" key="GridCell.Tab.1.center/72.27.1294.741@72.27.1294.741" timestamp="1596805911168" />
-    <state width="1240" height="53" key="GridCell.Tab.1.left" timestamp="1596805911167">
+    <state width="1240" height="53" key="GridCell.Tab.1.center/72.27.1294.741@72.27.1294.741" timestamp="1596806278451" />
+    <state width="1240" height="53" key="GridCell.Tab.1.left" timestamp="1596806278450">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1240" height="53" key="GridCell.Tab.1.left/72.27.1294.741@72.27.1294.741" timestamp="1596805911167" />
-    <state width="1240" height="53" key="GridCell.Tab.1.right" timestamp="1596805911169">
+    <state width="1240" height="53" key="GridCell.Tab.1.left/72.27.1294.741@72.27.1294.741" timestamp="1596806278450" />
+    <state width="1240" height="53" key="GridCell.Tab.1.right" timestamp="1596806278452">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1240" height="53" key="GridCell.Tab.1.right/72.27.1294.741@72.27.1294.741" timestamp="1596805911169" />
+    <state width="1240" height="53" key="GridCell.Tab.1.right/72.27.1294.741@72.27.1294.741" timestamp="1596806278452" />
     <state x="200" y="31" width="1037" height="737" key="SettingsEditor" timestamp="1596764995537">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
