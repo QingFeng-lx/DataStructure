@@ -11,11 +11,11 @@ public class CircleArrayQueueTest {
         queue.list();
         /*-------------------------------------------------------------------*/
         System.out.println("------testFull------");
-        /*queue.add(40);
-        queue.list();*/
+        queue.add(40);
+        queue.list();
         /*-------------------------------------------------------------------*/
         System.out.println("------testFull------");
-        System.out.println("the head of queue is :"+queue.peek());
+        System.out.println("the head of queue is :" + queue.peek());
         /*-------------------------------------------------------------------*/
         System.out.println("------testPop------");
         System.out.println(queue.pop());
@@ -27,7 +27,6 @@ public class CircleArrayQueueTest {
         queue.add(60);
         queue.add(70);
         queue.list();
-
-
+        /*-------------------------------------------------------------------*/
     }
 }
