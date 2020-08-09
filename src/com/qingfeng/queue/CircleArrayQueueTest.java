@@ -1,5 +1,9 @@
 package com.qingfeng.queue;
 
+import com.sun.jmx.remote.internal.ArrayQueue;
+
+import java.util.Queue;
+
 public class CircleArrayQueueTest {
     public static void main(String[] args) {
         CircleArrayQueue queue = new CircleArrayQueue(5);
@@ -28,5 +32,10 @@ public class CircleArrayQueueTest {
         queue.add(70);
         queue.list();
         /*-------------------------------------------------------------------*/
+        ArrayQueue<Object> arrayQueue = new ArrayQueue<Object>(20);
+        arrayQueue.add(20);
+
+
+
     }
 }

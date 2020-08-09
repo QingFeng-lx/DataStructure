@@ -1,14 +1,15 @@
 package com.qingfeng.queue;
 
 public class CircleArrayQueue {
-    private int maxSize;
-    private int front;
-    private int rear;
+    private int capacity;
+    private int head;
+    private int tail;
     private int[]queue;
 
+
     public CircleArrayQueue(int maxSize) {
-        this.maxSize = maxSize;
-        queue=new int[this.maxSize];
+        this.capacity = maxSize;
+        queue=new int[this.capacity];
     }
 
     /**
@@ -16,7 +17,7 @@ public class CircleArrayQueue {
      * @return
      */
     public boolean isFull(){
-        return (rear+1)%this.maxSize==front;
+        return (tail+1)%this.capacity==head;
     }
 
     /**
@@ -24,7 +25,7 @@ public class CircleArrayQueue {
      * @return
      */
     public boolean isEmpty(){
-        return rear==front;
+        return tail==head;
     }
 
     /**
@@ -36,8 +37,8 @@ public class CircleArrayQueue {
             System.err.println("the queue is full");
             return;
         }
-        queue[rear]=value;
-        rear=(rear+1)%this.maxSize;
+        queue[tail]=value;
+        tail=(tail+1)%this.capacity;
     }
 
     /**
@@ -48,8 +49,8 @@ public class CircleArrayQueue {
         if (this.isEmpty()){
             throw  new RuntimeException("the queue is empty!");
         }
-        int val = queue[front];
-        front=(front+1)%this.maxSize;
+        int val = queue[head];
+        head=(head+1)%this.capacity;
         return val;
 
     }
@@ -62,8 +63,8 @@ public class CircleArrayQueue {
             System.err.println("the queue is empty!");
             return;
         }
-        for (int i = front; i <this.size()+front ; i++) {
-            System.out.printf("queue[%d]=%d\n",i%this.maxSize,queue[i%this.maxSize]);
+        for (int i = head; i <this.size()+head ; i++) {
+            System.out.printf("queue[%d]=%d\n",i%this.capacity,queue[i%this.capacity]);
         }
     }
 
@@ -76,10 +77,10 @@ public class CircleArrayQueue {
             System.err.println("the queue is empty!");
             return null;
         }
-        return queue[front];
+        return queue[head];
     }
 
     public int size(){
-        return (this.rear+this.maxSize-this.front)%this.maxSize;
+        return (this.tail+this.capacity-this.head)%this.capacity;
     }
 }
